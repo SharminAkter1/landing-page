@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Dancing+Script&family=Poppins:ital,wght@0,200;0,300;0,500;0,600;1,200;1,300;1,400;1,500&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #B09E99;
+  background-position: center;
+  margin: 0 auto;
+  font-family:'Poppins', sans-serif;
+  min-height: 20%;
+}
+
+.main-container {
+ width: 750px;
+ background-color:rgb(218, 212, 212) ;
+ margin: 10% auto;
+ color: #6C757D;
+ font-weight:500 ;
+ font-size: 27px;
+ padding: 80px 0px 90px 0px;
+ border-radius: 15px 15px 0px 0px;
+}
+
+.main-container .btn  {
+  text-align: center;
+  color: #fff;
+}
+
+.main-container button {
+  color: #fff;
+  background-color:#64B6AC;
+  border: none;
+  padding: 15px 30px;
+  font-size: 24px;
+  box-shadow: 2px 2px 0px rgba(5, 2, 2, 0.8);
+  right:0;
+}
+
+.main-container button:hover {
+  background: #B09E99;
+  color: rgba(5, 2, 2, 0.8);
+}
+
+.main-container .quote{
+  margin: 40px 80px 10px 55px;
+}
+
+.main-container .quote span i {
+  font-size: 85px;
+  margin-right: 10px;
+}
+
+.main-container .author p {
+  font-size: 20px; 
+  float: right;
+  margin-right: 50px ;
+  color:#64B6AC;
+  
+}
+
+
