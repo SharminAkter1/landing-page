@@ -63,5 +63,49 @@ body {
   color:#64B6AC;
   
 }
+ 
+/*Responsive*/
+@media (max-width: 719px ) {
+  .main-container {
+    width: 480px;
+    margin:10% auto;
+    font-size: 20px;
+    padding: 80px 0px 65px 0px;
+    
+   }
+}
 
+@media (max-width: 496px) {
+  .main-container {
+    width: 350px;
+    margin:20% auto; 
+   }
+}
+
+@media (max-width: 456px ) {
+  .main-container {
+    width: 300px;
+    margin:10% auto;
+    font-size: 17px;
+    padding: 70px 0px 65px 0px;
+    
+   }
+
+   .main-container button {
+    font-size: 25px;
+  }
+
+  .main-container .quote{
+    margin: 40px 50px 10px 30px;
+  }
+
+  .main-container .author p {
+    font-size: 15px; 
+    float: right;
+    margin-right: 20px ;
+    color:#64B6AC;
+    
+  }
+  
+}
 
