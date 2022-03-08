@@ -92,7 +92,7 @@ body {
    }
 
    .main-container button {
-    font-size: 25px;
+    font-size: 22px;
   }
 
   .main-container .quote{
@@ -100,12 +100,45 @@ body {
   }
 
   .main-container .author p {
-    font-size: 15px; 
-    float: right;
-    margin-right: 20px ;
-    color:#64B6AC;
-    
+    font-size: 15px;
+    margin-right: 20px ;  
   }
   
 }
 
+@media (max-width: 390px ) {
+  .main-container {
+    width: 250px;
+    margin:10% auto;
+    font-size: 17px;
+    padding: 70px 0px 65px 0px;
+    
+   }
+
+  .main-container .author p {
+    font-size: 15px;
+    margin-right: 10px ;  
+  }
+
+  }
+
+  
+@media (max-width: 300px ) {
+  .main-container {
+    width: 200px;
+    margin:10% auto;
+    font-size: 17px;
+    padding: 70px 0px 65px 0px;
+    
+   }
+
+   .main-container button {
+    font-size: 15px;
+  }
+
+  .main-container .author p {
+    font-size: 15px;
+    margin-right: 10px ;  
+  }
+
+  }
